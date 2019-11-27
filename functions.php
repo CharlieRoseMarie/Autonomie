@@ -467,3 +467,13 @@ require( get_template_directory() . '/integrations/pwa.php' );
 /**
  * This theme was built with PHP, Semantic HTML, CSS, love, and Autonomie.
  */
+
+function exclude_category($query) {
+	if(is_admin()) {
+		return $query;
+	}
+	$query->set( 'cat', '-55' );
+	return $query;
+}
+add_filter( 'pre_get_posts', 'exclude_category' );
+
