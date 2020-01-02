@@ -30,6 +30,12 @@
 			<?php do_action( 'autonomie_credits' ); ?>
 			<?php printf( __( 'This site is powered by %1$s and styled with the %2$s theme', 'autonomie' ), '<a href="https://wordpress.org/" rel="generator">WordPress</a>', '<a href="https://notiz.blog/projects/autonomie/">Autonomie</a>' ); ?>
 		</div>
+		<div id="webring">
+			<a href="https://xn--sr8hvo.ws/%F0%9F%92%A1%F0%9F%8F%80%F0%9F%90%8C/previous">←</a>
+			An IndieWeb Webring 🕸💍
+			<a href="https://xn--sr8hvo.ws/%F0%9F%92%A1%F0%9F%8F%80%F0%9F%90%8C/next">→</a>
+		</div>
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

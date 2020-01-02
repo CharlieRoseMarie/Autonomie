@@ -153,6 +153,14 @@
 	background-color: var(--color-white);
 }
 
+#webring {
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+	background-color: $white;
+	background-color: var(--color-white);
+}
+
 .screen-reader-text,
 .assistive-text {
 	clip: rect(1px 1px 1px 1px);
